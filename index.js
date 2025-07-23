@@ -15,7 +15,7 @@ async function seedData() {
     await local.insertMany([
         { _id: 1, name: 'Himanshu1', updatedAt: now, source: 'LOCAL' },
         { _id: 2, name: 'Himanshu Dubey', updatedAt: now, source: 'LOCAL' },
-        { _id: 2, name: 'Shreya', updatedAt: now, source: 'LOCAL' }
+        { _id: 7, name: 'Shreya', updatedAt: now, source: 'LOCAL' }
     ]);
 
     await cloud.insertMany([
